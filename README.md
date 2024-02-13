@@ -28,7 +28,7 @@ There are 2 functions users can call to swap tokens in the pool.
 We will talk about what those do in a little. 
 
 ## Liquidity Providers
-In order for the system to work, users have to provide liquidity, aka, "add tokens into the pool". 
+In order for the system to work, users have to provide liquidity, aka, "add tokens into the pool". Burda Canberk'e bir teşekkür.
 
 ### Why would I want to add tokens to the pool? 
 The TSwap protocol accrues fees from users who make swaps. Every swap has a `0.3` fee, represented in `getInputAmountBasedOnOutput` and `getOutputAmountBasedOnInput`. Each applies a `997` out of `1000` multiplier. That fee stays in the protocol. 
